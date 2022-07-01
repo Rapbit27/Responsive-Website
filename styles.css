@@ -3,10 +3,24 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-.header{
-    min-height: 100vh;
+/* .fixed{
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/main.jpg);
+	height: 20px;
+	background-color: #1b1b32;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top: 0;
+    
+} */
+section {
+    height: 80%;
+}
+.home{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(Images/Page_1.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -113,9 +127,9 @@ nav .fa{
     }
 }
 
-/*-------Course---------*/
+/*-------Services---------*/
 
-.course{
+.service{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -137,7 +151,7 @@ p{
     display: flex;
     justify-content: space-between;
 }
-.course-col{
+.service-col{
     flex-basis: 31%;
     background: #fff2f3;
     border-radius: 10px;
@@ -151,7 +165,7 @@ h3{
     font-weight: 600;
     margin: 10px 0;
 }
-.course-col:hover{
+.service-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
@@ -161,22 +175,22 @@ h3{
     }
 }
 
-/*-------campus----------*/
+/*-------client----------*/
 
-.campus{
+.client{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
-.campus-col{
+.client-col{
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden; 
 }
-.campus-col img{
+.client-col img{
     width: 100%;
     display: block;
 }
@@ -190,12 +204,12 @@ h3{
     transition: 0.5s;
 }
 .layer:hover{
-    background: rgba(226,0,0,0.7);
+    background: rgba(227, 241, 243, 0.7);
 }
 .layer h3{
     width: 100%;
     font-weight: 500;
-    color: #fff;
+    color: rgb(14, 74, 238);
     font-size: 26px;
     bottom: 0;
     left: 50%;
@@ -209,29 +223,29 @@ h3{
     opacity: 1;
 }
 
-/* ------Facilities-------- */
+/* ------Project-------- */
 
-.facilities{
+.project{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
 }
-.facilities-col{
+.project-col{
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
 }
-.facilities-col img{
+.project-col img{
     width: 100%;
     border-radius: 10px;
 }
-.facilities-col p{
+.project-col p{
     padding: 0;
     text-align: justify;
 }
-.facilities-col h3{
+.project-col h3{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
@@ -279,9 +293,10 @@ h3{
 /*-------CAT---------*/
 
 .cta{
+
     margin: 100px auto;
     width: 90%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/Wall\ Paper\ 2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/Page_2.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
